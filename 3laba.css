@@ -1,0 +1,164 @@
+h1, h2, h3{
+    text-align: center;
+}
+h2 {
+    color: blue;
+}
+
+h3 {
+    font-size: 16px;
+    color: red;
+}  
+/* Номер 2
+h1 {
+    text-align: center;
+    color: red;
+}
+h2 {
+    text-align: center;
+    color: red;
+}
+h3 {
+    text-align: center;
+    font-size: 16px;
+    color: red;
+}
+    */
+
+/*
+    ul i {
+    color: red;
+}
+
+
+p i {
+    color: green;
+}
+
+p b i{
+    color: red;
+}
+    */
+li > b {
+    color: red;
+}
+.odd {
+    color: red;
+}
+.eve {
+    color: green;
+}
+.eee {
+    color: red;
+}
+span.xxx {
+    font-size: 30px;
+}
+.first {
+    color: red;
+}
+.second {
+    color: green;
+}
+.third {
+    color: blue;
+}
+.red {
+    color: red;
+}
+.green {
+    color: green;
+}
+
+/*Группировка классов в CSS
+задача 1
+.eee, .zzz {
+    line-height: 1.5;
+    font-family: Arial;
+}
+
+.eee {
+    font-size: 20px;
+}
+
+.zzz {
+    font-size: 30px;
+}
+    задача 2
+.eee, .zzz, .ggg {
+    text-align: center;
+    font-family: Arial;
+}
+
+.eee {
+    font-size: 20px;
+}
+
+.zzz {
+    font-size: 30px;
+}
+
+.ggg {
+    font-size: 35px;
+}
+    */
+   h2.header {
+    font-size: 40px;
+    color: red;
+}
+
+h3.header {
+    font-size: 30px;
+    color: red;
+} 
+.eee i {
+    color: red;
+}
+.success {
+    color: green;
+}
+.error {
+    color: red;
+}
+.large {
+    font-size: 30px;
+}
+.small {
+    font-size: 20px;
+}
+.bold {
+    font-weight: bold;
+}
+.underline {
+    text-decoration: underline;
+}
+.italic {
+    font-style: italic;
+}
+#block {
+    color: red;
+    font-weight: bold;
+}
+
+.text {
+    font-size: 20px;
+    font-family: Arial;
+    background-color: #f0f0f0;
+    padding: 10px;
+    margin: 10px 0;
+}
+#elem h2 {
+    color: blue;
+}
+#elem .text {
+ color: chartreuse;   
+}
+#elem p.text {
+   color: crimson;
+}
+#elem li.text {
+    color: blueviolet;
+}
+.eee.zzz.ccc {
+    color: lawngreen;
+}

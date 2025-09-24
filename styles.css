@@ -1,0 +1,78 @@
+p {
+color: orange;
+}
+h1 {
+color:green;
+}
+h2 {
+color:blue;
+}
+h3 {
+color: red;
+}
+h5{
+    color: rgb(64, 158, 157);
+}
+h6{
+    color: #800080;
+}
+td {
+	width: 300px;
+}
+td {
+  width: 400px;
+  height: 300px;
+}
+table {
+  width: 500px;
+  height: 300px;
+}
+td {
+  font-weight: bold;
+  text-align: center;
+}
+th {
+  font-weight: normal;
+}
+h2 {
+	font-style: italic;
+}
+h1 {
+  font-size: 50px;
+  text-align: center;
+}
+h2 {
+  font-size: 40px;
+  font-weight: normal;
+}
+p {
+  font-size: 30px;
+}
+p {
+	font-family: Comic Sans MS;
+}
+h2{
+   font-family: Arial; 
+}
+p {
+  font-size: 30px;
+  line-height: 1.5; 
+}
+/*Свойство-сокращение font в CSS
+N1
+p {
+  font: 13px/20px "Times New Roman";
+}
+  N2
+p {
+  width: 300px;
+  color: red;
+  font: bold 40px Arial;
+}
+  N3
+  p {
+  text-indent: 50px;
+  font: italic bold 40px/60px Arial;
+}
+  */
+  
