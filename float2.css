@@ -1,0 +1,13 @@
+.parent {
+    border: 1px solid red;
+    text-align: justify;
+    margin: 250px;
+    padding: 20px;
+}
+
+.child {
+    float: right;
+    width: 120px;
+    height: 80px;
+    border: 1px solid green;
+}

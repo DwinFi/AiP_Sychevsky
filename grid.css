@@ -1,0 +1,39 @@
+#parent {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+	border: 2px solid #696989;
+	padding: 10px;
+	width: 800px;
+}
+#parent > div {
+	padding: 10px;
+	border: 1px solid #111
+}
+#parentt {
+	display: grid;
+	grid-template-rows: auto auto auto;
+	border: 2px solid #696989;
+	padding: 10px;
+	width: 600px;
+	height: 400px;
+}
+#parentt > div {
+	padding: 10px;
+	border: 1px solid #696989;
+}
+
+
+
+
+#parenttt {
+	display: grid;
+    grid-template : 1fr 1fr 2fr 4fr 5fr / 1fr 1fr 1fr 1fr 1fr;
+	border: 2px solid #696989;
+	padding: 10px;
+	width: 1000px;
+    height: 400px
+}
+#parenttt > div {
+	padding: 10px;
+	border: 1px solid #696989;
+}

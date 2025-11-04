@@ -1,0 +1,66 @@
+#parent {
+    width: 300px;
+    height: 300px;
+    border: 2px dashed blue;
+}
+
+#child {
+    width: 200px;
+    height: 200px;
+    border: 2px solid yellow;
+    margin: 30px;
+}
+#papa{
+    width: 300px;
+	border: 1px solid red;
+}
+#mama{
+    margin-top:   150px; /* сверху */
+	margin-right:  100px; /* справа */
+	margin-bottom: 150px; /* снизу */
+	margin-left:   100px; /* слева */
+	
+	height: 100px;
+	border: 1px solid green;
+}
+
+
+
+.item {
+    width: 150px;
+    height: 150px;
+    display: flex;
+    border: 1px solid #808080;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+.yellow {
+  width: 300px;
+    height: 200px;
+    border: 2px solid #FFD700;
+    position: relative;
+}
+
+.blue_Kursiv {
+ width: 100px;
+    height: 50px;
+    border: 1px dashed #0000FF; /* пунктирная синяя граница */
+    margin: 20px 0 0 30px; /* отступы: сверху 20px, слева 30px */
+}
+#pparent {
+    width: 200px;
+    height: 300px;
+    border: 2px solid #FFD700; /* желтая граница */
+    background-color: #FFF;
+    position: relative;
+}
+
+#cchild {
+    width: 120px;
+    height: 60px;
+    border: 1px dashed #0000FF; /* пунктирная синяя граница */
+    background-color: #F0F8FF;
+    margin: 120px auto; /* центрирование по горизонтали, отступ сверху 120px */
+}
