@@ -1,0 +1,315 @@
+#el1 {
+    width: 300px;
+    border: 3px dashed blue;
+}
+
+#child {
+    height: 100px;
+    border: 3px solid yellow;
+    margin: 30px;
+}
+
+#el2 {
+    width: 300px;
+    border: 3px dashed blue;
+}
+
+#cld {
+    height: 100px;
+    border: 3px dashed green;
+    margin: 30px;
+}
+
+#cld2 {
+    height: 40px;
+    border: 3px solid red;
+    margin: 30px;
+}
+
+#el3 {
+    width: 300px;
+    border: 3px solid red;
+}
+
+#cld3 {
+    height: 100px;
+    border: 3px solid green;
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-bottom: 60px;
+    margin-right: 20px;
+}
+
+#el4 {
+    width: 300px;
+    border: 3px solid red;
+}
+
+#cld4 {
+    height: 80px;
+    border: 3px solid green;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 60px;
+}
+
+#el5 {
+    width: 300px;
+    border: 3px solid red;
+}
+
+#cld5 {
+    height: 100px;
+    border: 3px solid green;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+#el6 {
+    width: 300px;
+    height: 200px;
+    border: 3px solid yellow;
+}
+
+#cld6 {
+    height: 100px;
+    border: 3px dashed blue;
+    margin: 15px 30px 60px 10px;
+}
+
+#el7 {
+    width: 300px;
+    height: 200px;
+    border: 3px solid yellow;
+}
+
+#cld7 {
+    height: 100px;
+    border: 3px dashed blue;
+    margin: 50px 20px;
+}
+
+#el8 {
+    width: 300px;
+    height: 200px;
+    border: 3px solid yellow;
+}
+
+#cld8 {
+    height: 150px;
+    border: 3px dashed blue;
+    margin: 20px 30px;
+}
+
+#el9 {
+    width: 300px;
+    height: 200px;
+    border: 3px solid blue;
+    padding: 30px;
+}
+
+.elem {
+    width: 500px;
+    height: 100px;
+    border: 3px solid blue;
+    padding: 20px;
+    text-align: justify;
+}
+
+.elem1 {
+    width: 300px;
+    height: 160px;
+    border: 3px solid blue;
+    padding: 5px;
+}
+
+.elem2 {
+    width: 300px;
+    height: 160px;
+    border: 3px solid blue;
+    padding: 5px;
+}
+
+.elem3 {
+    width: 300px;
+    height: 160px;
+    border: 3px solid blue;
+    padding-top: 5px;
+    padding-right: 10px;
+    padding-left: 15px;
+    padding-bottom: 5px;
+}
+
+.elem4 {
+    width: 100px;
+    height: 100px;
+    background: #f1f1f1;
+    padding: 25px;
+    border: 10px solid green;
+    box-sizing: border-box;
+}
+
+.elem5 p {
+    display: block;
+    width: 100px;
+    border: 3px solid red;
+    margin-bottom: 30px;
+}
+
+.elem6 p {
+    display: inline;
+    border: 3px solid red;
+}
+
+.elem7 {
+    border: 1px solid red;
+}
+
+.childelem7 {
+    height: 100px;
+    width: 100px;
+    border: 1px solid green;
+    margin: 10px auto;
+}
+
+.childelem71 {
+    height: 100px;
+    width: 150px;
+    border: 1px solid green;
+    margin: 10px auto;
+}
+
+.childelem72 {
+    height: 100px;
+    width: 200px;
+    border: 1px solid green;
+    margin: 10px auto;
+}
+
+.parent {
+    text-align: center;
+    padding: 10px 0;
+    border: 1px solid blue;
+}
+
+a {
+    border: 1px solid green;
+}
+
+.parent1 {
+    text-align: right;
+    padding: 10px 20px 10px 0;
+    border: 1px solid red;
+}
+
+.parent2 {
+    padding: 10px 0;
+    border: 1px solid red;
+    text-align: center;
+}
+
+.child2 {
+    padding: 10px;
+    border: 1px solid green;
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.parent3 {
+    display: flex;
+    width: 300px;
+    height: 200px;
+    border: 1px solid olivedrab;
+}
+
+.child3 {
+    width: 50px;
+    height: 50px;
+    border: 1px solid green;
+}
+
+.parent4 {
+    display: flex;
+    width: 300px;
+    border: 1px solid red;
+}
+
+.child4 {
+    width: 50px;
+    height: 50px;
+    border: 1px solid green;
+}
+
+.parent5 {
+    display: flex;
+    border: 1px solid red;
+    margin: 10px;
+}
+
+.child5 {
+    width: 50px;
+    height: 50px;
+    border: 1px solid green;
+}
+
+.parent6 {
+    display: inline-flex;
+    border: 1px solid red;
+    margin: 10px;
+}
+
+.child6 {
+    width: 50px;
+    height: 50px;
+    border: 1px solid green;
+}
+
+.parent7 {
+    display: inline-flex;
+    padding: 10px;
+    border: 1px solid red;
+    margin: 10px;
+}
+
+.child7 {
+    width: 50px;
+    height: 50px;
+    border: 1px solid green;
+}
+
+.parent8 {
+    display: flex;
+    justify-content: center;
+    border: 1px solid red;
+    margin: 10px;
+}
+
+.child7 {
+    width: 50px;
+    height: 50px;
+    border: 1px solid green;
+}
+
+.parent9 {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid red;
+    margin: 10px;
+}
+
+.parent10 {
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid greenyellow;
+    margin: 10px;
+}
+
+.parent11 {
+    display: flex;
+    justify-content: space-evenly;
+    border: 1px solid red;
+    margin: 10px;
+}
