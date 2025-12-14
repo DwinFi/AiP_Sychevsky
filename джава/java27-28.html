@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		
+	</head>
+	<body>
+        <div class="container">
+    <h2>1. Изучение объекта Event</h2>
+    <button id="elem1">Нажми меня и посмотри в консоль</button>
+</div>
+
+<div class="container">
+    <h2>2. Разные цвета по типу клика</h2>
+    <button id="elem2">Кликни или дважды кликни</button>
+</div>
+
+<div class="container">
+    <h2>3. Обработчик клика для списка</h2>
+    <ul id="elem3">
+        <li>text</li>
+        <li>text</li>
+        <li>text</li>
+        <li>text</li>
+        <li>text</li>
+    </ul>
+</div>
+
+<div class="container">
+    <h2>4. Отслеживание клавиш</h2>
+    <input type="text" id="input4" placeholder="Вводите текст здесь">
+    <p id="output4">Информация о клавишах появится здесь</p>
+</div>
+
+<div class="container">
+    <h2>5. Ввод текста по Enter</h2>
+    <input type="text" id="input5" placeholder="Введите текст и нажмите Enter">
+    <p id="text5">Текст появится здесь</p>
+</div>
+
+<div class="container">
+    <h2>6. Клик с клавишей Alt</h2>
+    <div id="elem6" class="color-box" style="background: lightblue;">
+        Нажми с Alt
+    </div>
+</div>
+
+<div class="container">
+    <h2>7. Список с Ctrl и Shift</h2>
+    <ul id="elem7">
+        <li>text (Ctrl=1, Shift=2)</li>
+        <li>text (Ctrl=1, Shift=2)</li>
+        <li>text (Ctrl=1, Shift=2)</li>
+        <li>text (Ctrl=1, Shift=2)</li>
+        <li>text (Ctrl=1, Shift=2)</li>
+    </ul>
+</div>
+
+<div class="container">
+    <h2>8. Отмена действия по умолчанию</h2>
+    <h3>8.1 - Ссылки с href</h3>
+    <a href="https://example.com" id="link1">Ссылка 1</a><br>
+    <a href="https://google.com" id="link2">Ссылка 2</a>
+
+    <h3>8.2 - Сумма чисел</h3>
+    <input type="number" id="num1" placeholder="Число 1">
+    <input type="number" id="num2" placeholder="Число 2">
+    <a href="#" id="sumLink">Посчитать сумму</a>
+    <p id="result8">Результат появится здесь</p>
+</div>
+
+<div class="container">
+    <h2>9. Демонстрация всплытия</h2>
+    <div id="div1" style="padding: 50px; background: lightgreen;">
+        DIV 1
+        <div id="div2" style="padding: 30px; background: lightblue;">
+            DIV 2
+            <div id="div3" style="padding: 20px; background: lightcoral;">
+                DIV 3 (посмотри в консоль)
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <h2>10. Определение целевого элемента</h2>
+    <div id="div10" style="border: 1px solid red; padding: 20px;">
+        DIV
+        <ul style="border: 1px solid orange; padding: 20px;">
+            UL
+            <li style="border: 1px solid green; padding: 10px;">1</li>
+            <li style="border: 1px solid green; padding: 10px;">2</li>
+            <li style="border: 1px solid green; padding: 10px;">3</li>
+        </ul>
+    </div>
+</div>
+
+<div class="container">
+    <h2>11. Остановка всплытия</h2>
+    <div id="div11" style="padding: 50px; background: lightgreen;">
+        DIV 1
+        <div id="div12" style="padding: 30px; background: lightblue;">
+            DIV 2 (останавливает всплытие)
+            <div id="div13" style="padding: 20px; background: lightcoral;">
+                DIV 3
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <h2>12. Делегирование событий</h2>
+    <ul id="list12">
+        <li>item 1</li>
+        <li>item 2</li>
+        <li>item 3</li>
+    </ul>
+    <button id="addBtn12">Добавить новый элемент</button>
+</div>
+
+<div class="container">
+    <h2>13. Универсальное делегирование с closest</h2>
+    <ul id="list13">
+        <li>item <i>italic</i> item</li>
+        <li>item <i>italic</i> item</li>
+        <li>item <i>italic</i> item</li>
+    </ul>
+    <button id="addBtn13">Добавить новый элемент</button>
+</div>
+
+<div class="container">
+    <h2>14. Метод call</h2>
+    <input id="elem14_1" value="text1">
+    <input id="elem14_2" value="text2">
+    <input id="elem14_3" value="text3">
+</div>
+
+<div class="container">
+    <h2>15. Метод call с параметрами</h2>
+    <input id="elem15" value="hello">
+</div>
+
+<div class="container">
+    <h2>16. Метод apply</h2>
+    <input id="elem16" value="hello">
+</div>
+
+<div class="container">
+    <h2>17. Метод bind</h2>
+    <input id="elem17" value="hello">
+</div>
+        <script src="java27-28.js"></script>
+        </body>
+</html>

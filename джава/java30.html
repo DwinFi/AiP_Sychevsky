@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <title>Задачи 455–465(блок 30)</title>
+  <style>
+    body { font-family: Arial, sans-serif; padding: 18px; line-height: 1.4; }
+    section { border:1px solid #2403ff; padding:10px; margin:100px 0; }
+    h3 { margin:0 0 8px 0; font-size:16px; }
+    button { margin:4px; }
+    ol, ul { margin:6px 0 12px 20px; }
+  </style>
+</head>
+<body>
+  <section id="s455-1">
+    <h3>455.1 — вставить li 'item' в конец ol</h3>
+    <ol id="ol4551"></ol>
+    <button id="btn4551">Вставить один li</button>
+  </section>
+
+  <section id="s455-2">
+    <h3>455.2 — по клику кнопки добавлять li 'item'</h3>
+    <ol id="ol4552"></ol>
+    <button id="btn4552">Добавить item</button>
+  </section>
+
+  <section id="s456">
+    <h3>456 — добавлять li с обработчиком (добавляет '!')</h3>
+    <ol id="ol456"></ol>
+    <button id="btn456">Добавить li</button>
+  </section>
+
+  <section id="s457">
+    <h3>457 — вставить 10 li с порядковыми номерами</h3>
+    <ul id="ul457"></ul>
+    <button id="btn457">Заполнить 10 li</button>
+  </section>
+
+  <section id="s458">
+    <h3>458 — 5 input; по blur вывод значения</h3>
+    <div id="inputs458"></div>
+    <p>Вывод: <span id="out458">—</span></p>
+    <button id="btn458">Создать 5 инпутов</button>
+  </section>
+
+  <section id="s459-1">
+    <h3>459.1 — удалить li по клику</h3>
+    <ul id="ul459-1">
+      <li>1</li><li>2</li><li>3</li>
+    </ul>
+  </section>
+
+  <section id="s459-2">
+    <h3>459.2 — удалить последний элемент списка</h3>
+    <ul id="parent459">
+      <li>a</li><li>b</li><li>c</li>
+    </ul>
+    <input type="button" id="btn459-2" value="Удалить последний">
+  </section>
+
+  <section id="s460">
+    <h3>460 — добавить 'start' в начало и 'finish' в конец</h3>
+    <ul id="ul460">
+      <li>text</li><li>text</li><li>text</li>
+    </ul>
+    <button id="btn460">Добавить start/finish</button>
+  </section>
+
+  <section id="s461">
+    <h3>461 — insertBefore: вставить 'new' перед elem461</h3>
+    <ul id="parent461">
+      <li>text</li>
+      <li>text</li>
+      <li id="elem461">text (elem461)</li>
+      <li>text</li>
+    </ul>
+    <button id="btn461">Вставить 'new'</button>
+  </section>
+
+  <section id="s462">
+    <h3>462 — insertAdjacentElement примеры</h3>
+    <div id="elem462" style="border:1px solid red; padding:6px; margin-bottom:6px;">
+      <p>text</p><p>text</p><p>text</p>
+    </div>
+    <div>
+      <button id="btn462-before">beforeBegin</button>
+      <button id="btn462-after">afterEnd</button>
+      <button id="btn462-afterBegin">afterBegin</button>
+      <button id="btn462-beforeEnd">beforeEnd</button>
+    </div>
+  </section>
+
+  <section id="s463">
+    <h3>463 — insertAdjacentHTML (beforeBegin)</h3>
+    <div id="elem463" style="border:1px solid rgb(46, 255, 81); padding:6px;">
+      <p>text</p><p>text</p><p>text</p>
+    </div>
+    <button id="btn463">Вставить HTML</button>
+  </section>
+
+  <section id="s464">
+    <h3>464 — клонировать input</h3>
+    <div id="wrap464">
+      <input id="input464" placeholder="введите" />
+    </div>
+    <button id="btn464">Клонировать input</button>
+  </section>
+
+  <section id="s465">
+    <h3>465 — matches / nodeName / contains</h3>
+    <div id="elem465" class="www"></div>
+    <p id="p465">Результаты в консоли</p>
+    <button id="btn465">Выполнить проверки</button>
+
+    <div id="containsWrap" style="margin-top:8px;">
+      <div id="elem1">
+        <p id="elem2">потомок elem1</p>
+      </div>
+    </div>
+  </section>
+  <script src="java30.js"></script>
+</body>
+</html>

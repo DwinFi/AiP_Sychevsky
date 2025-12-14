@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>JS — Блок 33 (497–506)</title>
+  <style>
+    body { font-family: Arial; padding: 20px; }
+    section { border: 1px solid #aaa; margin-bottom: 15px; padding: 10px; }
+    button { margin-top: 5px; }
+    input { width: 60px; }
+    div.box { cursor: pointer; margin: 5px 0; }
+  </style>
+</head>
+<body>
+
+<h1>Блок 33 — Модули и замыкания</h1>
+
+<!-- 499 -->
+<section>
+  <h3>499 — квадрат и куб</h3>
+  <div id="div1" class="box">2</div>
+  <div id="div2" class="box">2</div>
+</section>
+
+<!-- 500 -->
+<section>
+  <h3>500 — сумма инпутов (модуль)</h3>
+  <input id="i1">
+  <input id="i2">
+  <input id="i3">
+  <button id="btn500">Сложить</button>
+</section>
+
+<!-- 501 -->
+<section id="parent501">
+  <h3>501 — передача родителя</h3>
+  <div id="div1">1</div>
+  <div id="div2">2</div>
+  <div id="div3">3</div>
+  <div id="res"></div>
+  <button id="btn">Сумма</button>
+</section>
+
+<!-- 502–503 -->
+<section id="parent503">
+  <h3>502–503 — настройки модуля</h3>
+</section>
+
+<!-- 504 -->
+<section>
+  <h3>504 — экспорт переменных и функций</h3>
+  <button onclick="funcA()">Функция A</button>
+  <button onclick="funcB()">Функция B</button>
+</section>
+
+<!-- 505 -->
+<section>
+  <h3>505 — экспорт объекта</h3>
+  <button onclick="module505.func1()">func1</button>
+  <button onclick="module505.func2()">func2</button>
+</section>
+
+<!-- 506 -->
+<section>
+  <h3>506 — библиотека math</h3>
+  <button onclick="alert(math.square(4))">square</button>
+  <button onclick="alert(math.cube(3))">cube</button>
+  <button onclick="alert(math.avg([1,2,3]))">avg</button>
+</section>
+
+<script src="java33.js"></script>
+</body>
+</html>

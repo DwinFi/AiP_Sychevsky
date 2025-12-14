@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <title></title>
+  <script src="java29.js"></script>
+  <style>
+    body { font-family: Arial, sans-serif; padding: 20px; line-height: 1.6; }
+    .task { margin: 15px 0; padding: 12px; border: 1px solid #ddd; border-radius: 4px; }
+    button, input { margin: 5px 5px 5px 0; padding: 6px 10px; }
+  </style>
+</head>
+<body>
+
+<!-- №1⊗jsPmTrCn -->
+<div class="task">
+  <p><strong>№1</strong> — обратный отсчёт от 100 (см. консоль)</p>
+  <button id="btn1">Запустить отсчёт от 100</button>
+</div>
+
+<!-- №1⊗jsPmTrTS -->
+<div class="task">
+  <p><strong>№2</strong> — отсчёт от 10 до 0 с остановкой (см. консоль)</p>
+  <button id="btn2">Запустить отсчёт от 10</button>
+</div>
+
+<!-- №1⊗jsPmTrLB -->
+<div class="task">
+  <p><strong>№3</strong> — кнопка для отсчёта от 100 (см. консоль)</p>
+  <button id="btn3">Старт отсчёта от 100</button>
+</div>
+
+<!-- №1⊗jsPmTrML -->
+<div class="task">
+  <p><strong>№4</strong> — исправленный отсчёт (без ускорения при многократном клике)</p>
+  <button id="btn4">Старт (без ускорения)</button>
+</div>
+
+<!-- №1⊗jsPmTrSB -->
+<div class="task">
+  <p><strong>№5</strong> — две кнопки: старт/стоп отсчёта от 100</p>
+  <button id="startBtn">Старт</button>
+  <button id="stopBtn">Стоп</button>
+  <p>Значение: <span id="counterDisplay">100</span></p>
+</div>
+
+<!-- №2–5⊗jsPmTrSB -->
+<div class="task">
+  <p><strong>№6</strong> — исправление ошибок в таймерах</p>
+  <input type="submit" id="startFix" value="start">
+  <input type="submit" id="stopFix" value="stop">
+</div>
+
+<!-- №6⊗jsPmTrSB -->
+<div class="task">
+  <p><strong>№7</strong> — старт/стоп с повторным включением</p>
+  <button id="startRe">Старт</button>
+  <button id="stopRe">Стоп</button>
+</div>
+
+<!-- №1⊗jsPmTrDm -->
+<div class="task">
+  <p><strong>№8</strong> — инпут с начальным значением 10, уменьшение до 0</p>
+  <input type="number" id="inputDm" value="10">
+</div>
+
+<!-- №1⊗jsPmTrTCL -->
+<div class="task">
+  <p><strong>№9</strong> — кнопка, значение которой увеличивается при клике</p>
+  <input type="button" id="elem" value="1">
+</div>
+
+<!-- Практика DOM -->
+<div class="task">
+  <p><strong>№10</strong> — увеличивать число в абзаце</p>
+  <p id="para1">5</p>
+  <button id="btnPara1">Увеличить каждую секунду</button>
+</div>
+
+<div class="task">
+  <p><strong>№11</strong> — уменьшать до 0</p>
+  <p id="para2">10</p>
+  <button id="btnPara2">Уменьшать до 0</button>
+</div>
+
+<div class="task">
+  <p><strong>№12</strong> — квадрат числа в инпуте</p>
+  <input type="number" id="inputSquare" value="4">
+  <p>Квадрат: <span id="squareResult">16</span></p>
+</div>
+
+<div class="task">
+  <p><strong>№13</strong> — обратный отсчёт по потере фокуса</p>
+  <input type="number" id="inputCountdown" placeholder="Введите число">
+  <p id="countdownText">--</p>
+</div>
+
+<div class="task">
+  <p><strong>№14</strong> — установить число и запустить отсчёт</p>
+  <input type="number" id="inputToPara" placeholder="Число">
+  <button id="btnSetPara">Установить и запустить</button>
+  <p id="paraCountdown">--</p>
+</div>
+
+<div class="task">
+  <p><strong>№15</strong> — бесконечный счётчик с остановкой</p>
+  <p id="infiniteCounter">0</p>
+  <button id="btnStartInf">Старт</button>
+  <button id="btnStopInf">Стоп</button>
+</div>
+
+<div class="task">
+  <p><strong>№16</strong> — мигающий цвет текста</p>
+  <p id="colorToggle" style="color: red;">Меняю цвет каждую секунду</p>
+</div>
+
+<div class="task">
+  <p><strong>№17</strong> — часы</p>
+  <p id="clock">--:--:--</p>
+</div>
+
+<div class="task">
+  <p><strong>№18</strong> — сообщение через 10 секунд</p>
+  <p id="delayedMessage">Ждите...</p>
+</div>
+
+<div class="task">
+  <p><strong>№19</strong> — рекурсивный таймер (см. консоль)</p>
+</div>
+
+<!-- Создание элементов -->
+<div class="task">
+  <p><strong>№20</strong> — добавить li в ol</p>
+  <ol id="list1"></ol>
+</div>
+
+<div class="task">
+  <p><strong>№21</strong> — добавлять li по клику</p>
+  <ol id="list2"></ol>
+  <button id="addLiBtn">Добавить элемент</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

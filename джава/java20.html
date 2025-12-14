@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Задачи</title>
+   
+</head>
+<body>
+    <script src="java20.js"></script>
+    <h1>JavaScript Практические Задачи</h1>
+
+    <!-- Базовые задачи -->
+    <div class="task">
+        <h2>Базовые задачи с элементами</h2>
+        <p id="base_elem1">1</p>
+        <p id="base_elem2">2</p>
+        <p id="base_elem3">3</p>
+        <div id="block">
+            <p>1</p>
+            <p>2</p>
+        </div>
+        <div class="block">
+            <p>1</p>
+            <p>2</p>
+        </div>
+        <p class="www">text</p>
+        <p class="www">text</p>
+        <input id="base_button1" type="submit" value="Кнопка 1">
+        <input id="base_button2" type="submit" value="Кнопка 2">
+        <input id="base_button3" type="submit" value="Кнопка 3">
+    </div>
+
+    <!-- Задача 1.1: Чтение текста -->
+    <div class="task">
+        <h3>1.1 Прочитать текст абзаца</h3>
+        <p id="task1_1_elem">Это текст первого абзаца.</p>
+        <button id="task1_1_button">Прочитать текст абзаца</button>
+    </div>
+
+    <!-- Задача 1.2: Изменение текста -->
+    <div class="task">
+        <h3>1.2 Изменить текст абзаца</h3>
+        <p id="task1_2_elem">Исходный текст второго абзаца.</p>
+        <button id="task1_2_button">Изменить текст абзаца</button>
+    </div>
+
+    <!-- Задача 1.3: Сумма чисел -->
+    <div class="task">
+        <h3>1.3 Вычислить сумму чисел</h3>
+        <p id="task1_3_num1">5</p>
+        <p id="task1_3_num2">7</p>
+        <button id="task1_3_button">Вычислить сумму</button>
+        <div class="result" id="task1_3_result"></div>
+    </div>
+
+    <!-- Задача 1.4: Сумма трех чисел -->
+    <div class="task">
+        <h3>1.4 Сумма трех чисел в div</h3>
+        <p id="task1_4_num1">3</p>
+        <p id="task1_4_num2">8</p>
+        <p id="task1_4_num3">2</p>
+        <div id="task1_4_sumDiv">Здесь будет сумма</div>
+        <button id="task1_4_button">Вычислить сумму</button>
+    </div>
+
+    <!-- Задача 1.5: Счетчик -->
+    <div class="task">
+        <h3>1.5 Увеличить счетчик на 1</h3>
+        <p id="task1_5_counter">0</p>
+        <button id="task1_5_button">Увеличить на 1</button>
+    </div>
+
+    <!-- Задача 1.6: Добавление восклицательного знака -->
+    <div class="task">
+        <h3>1.6 Добавить восклицательный знак</h3>
+        <p id="task1_6_text">Этот текст будет дополняться</p>
+        <button id="task1_6_button">Добавить восклицательный знак</button>
+    </div>
+
+    <!-- Задача 2.1: Атрибут type инпута -->
+    <div class="task">
+        <h3>2.1 Атрибут type инпута</h3>
+        <p>Вывести содержимое атрибута type инпута</p>
+        <input id="task2_1_elem" type="email" placeholder="Введите email">
+        <button id="task2_1_button">Показать type инпута</button>
+        <div class="result" id="task2_1_result"></div>
+    </div>
+
+    <!-- Задача 2.2: Изменить type на submit -->
+    <div class="task">
+        <h3>2.2 Изменить атрибут type на submit</h3>
+        <input id="task2_2_elem" type="email" placeholder="Введите email">
+        <button id="task2_2_button">Сделать кнопкой отправки</button>
+    </div>
+
+    <!-- Задача 2.3: Атрибут href ссылки -->
+    <div class="task">
+        <h3>2.3 Содержимое атрибута href</h3>
+        <a id="task2_3_link" href="https://www.example.com">Перейти на Example.com</a>
+        <button id="task2_3_button">Показать href ссылки</button>
+        <p id="task2_3_result">Здесь появится адрес ссылки</p>
+    </div>
+
+    <!-- Задача 2.4: Добавить href к тексту ссылки -->
+    <div class="task">
+        <h3>2.4 Добавить адрес ссылки в текст</h3>
+        <a id="task2_4_link" href="https://www.google.com">Поиск в Google</a>
+        <button id="task2_4_button">Добавить адрес</button>
+    </div>
+
+    <!-- Задача 2.5: Атрибут src картинки -->
+    <div class="task">
+        <h3>2.5 Путь к картинке</h3>
+        <img id="task2_5_img" src="https://via.placeholder.com/150" alt="Пример картинки">
+        <button id="task2_5_button">Показать путь к картинке</button>
+        <p id="task2_5_result">Здесь появится путь к картинке</p>
+    </div>
+
+    <!-- Задача 2.6: Ширина картинки 300px -->
+    <div class="task">
+        <h3>2.6 Установить ширину картинки в 300px</h3>
+        <img id="task2_6_img" src="https://via.placeholder.com/150" alt="Пример картинки" width="150">
+        <button id="task2_6_button">Установить ширину 300px</button>
+    </div>
+
+    <!-- Задача 2.7: Удвоить ширину картинки -->
+    <div class="task">
+        <h3>2.7 Увеличить ширину картинки в 2 раза</h3>
+        <img id="task2_7_img" src="https://via.placeholder.com/100" alt="Пример картинки" width="100">
+        <button id="task2_7_button">Увеличить ширину в 2 раза</button>
+    </div>
+
+    <!-- Задача 2.8: Переключение картинок -->
+    <div class="task">
+        <h3>2.8 Переключать картинки</h3>
+        <img id="task2_8_img" src="https://via.placeholder.com/200/ff0000" alt="Красная картинка" width="200">
+        <button id="task2_8_button1">Показать красную картинку</button>
+        <button id="task2_8_button2">Показать синюю картинку</button>
+    </div>
+
+    <!-- Задача 3.1: Записать текст в инпут -->
+    <div class="task">
+        <h3>3.1 Записать текст в инпут</h3>
+        <input type="text" id="task3_1_input" placeholder="Этот текст изменится">
+        <button id="task3_1_button">Записать текст в инпут</button>
+    </div>
+
+    <!-- Задача 3.2: Текст из инпута в абзац -->
+    <div class="task">
+        <h3>3.2 Текст из инпута в абзац</h3>
+        <input type="text" id="task3_2_input" placeholder="Введите текст здесь">
+        <button id="task3_2_button">Вывести текст в абзац</button>
+        <p id="task3_2_result">Здесь появится текст из инпута</p>
+    </div>
+
+    <!-- Задача 3.3: Квадрат числа -->
+    <div class="task">
+        <h3>3.3 Квадрат числа</h3>
+        <input type="number" id="task3_3_input1" placeholder="Введите число">
+        <input type="number" id="task3_3_input2" placeholder="Здесь появится квадрат числа" readonly>
+        <button id="task3_3_button">Вычислить квадрат</button>
+    </div>
+
+    <!-- Задача 3.4: Поменять значения местами -->
+    <div class="task">
+        <h3>3.4 Поменять значения инпутов местами</h3>
+        <input type="text" id="task3_4_input1" placeholder="Первое значение" value="Привет">
+        <input type="text" id="task3_4_input2" placeholder="Второе значение" value="Мир">
+        <button id="task3_4_button">Поменять значения местами</button>
+    </div>
+
+    <!-- Задача 3.5: Среднее арифметическое -->
+    <div class="task">
+        <h3>3.5 Среднее арифметическое 5 чисел</h3>
+        <div class="inputs-group">
+            <input type="number" id="task3_5_input1" placeholder="Число 1" value="10">
+            <input type="number" id="task3_5_input2" placeholder="Число 2" value="20">
+            <input type="number" id="task3_5_input3" placeholder="Число 3" value="30">
+            <input type="number" id="task3_5_input4" placeholder="Число 4" value="40">
+            <input type="number" id="task3_5_input5" placeholder="Число 5" value="50">
+        </div>
+        <button id="task3_5_button">Вычислить среднее арифметическое</button>
+        <p id="task3_5_result">Здесь появится результат вычислений</p>
+    </div>
+
+    <!-- Задача 4.1: Фокус инпута -->
+    <div class="task">
+        <h3>4.1 Фокус инпута</h3>
+        <input type="text" id="task4_1_input" placeholder="Кликните сюда">
+    </div>
+
+    <!-- Задача 4.2: Квадрат числа при потере фокуса -->
+    <div class="task">
+        <h3>4.2 Квадрат числа</h3>
+        <input type="number" id="task4_2_input" placeholder="Введите число">
+        <p id="task4_2_result"></p>
+    </div>
+
+    <!-- Задача 4.3: Очистка при фокусе -->
+    <div class="task">
+        <h3>4.3 Очистка при фокусе</h3>
+        <input type="text" id="task4_3_input" value="Исходный текст">
+    </div>
+
+    <!-- Задача 5.1: Атрибут class -->
+    <div class="task">
+        <h3>5.1 Прочитать атрибут class</h3>
+        <div id="task5_1_elem" class="content no-gap">Элемент с классами</div>
+        <button id="task5_1_button">Прочитать class</button>
+        <p id="task5_1_result"></p>
+    </div>
+
+    <!-- Задача 5.2: Установить class -->
+    <div class="task">
+        <h3>5.2 Установить class</h3>
+        <div id="task5_2_elem">Элемент без классов</div>
+        <button id="task5_2_button">Установить class</button>
+    </div>
+
+    <!-- Задача 5.3: Массив классов -->
+    <div class="task">
+        <h3>5.3 Получить массив классов</h3>
+        <div id="task5_3_elem" class="aaa bbb ccc">Элемент с тремя классами</div>
+        <button id="task5_3_button">Получить классы</button>
+        <p id="task5_3_result"></p>
+    </div>
+
+    <!-- Задача 6.1: Картинка с this -->
+    <div class="task">
+        <h3>6.1 Картинка</h3>
+        <img id="task6_1_image" src="https://via.placeholder.com/150" alt="Тестовая картинка">
+    </div>
+
+    <!-- Задача 6.2: Фокус с this -->
+    <div class="task">
+        <h3>6.2 Фокус с this</h3>
+        <input type="text" id="task6_2_input" placeholder="Кликните сюда">
+    </div>
+
+    <!-- Задача 6.3: Увеличение значения кнопки -->
+    <div class="task">
+        <h3>6.3 Увеличение значения кнопки</h3>
+        <button id="task6_3_button">1</button>
+    </div>
+
+    <!-- Задача 7.1: Восклицательный знак для абзацев -->
+    <div class="task">
+        <h3>7.1 Восклицательный знак для абзацев</h3>
+        <p class="task7_1_p">Первый абзац</p>
+        <p class="task7_1_p">Второй абзац</p>
+        <p class="task7_1_p">Третий абзац</p>
+    </div>
+
+    <!-- Задача 7.2: Квадрат числа в инпутах -->
+    <div class="task">
+        <h3>7.2 Квадрат числа в инпутах</h3>
+        <input type="number" class="task7_2_input" value="2">
+        <input type="number" class="task7_2_input" value="3">
+        <input type="number" class="task7_2_input" value="4">
+    </div>
+
+    <!-- Задача 8.1: Установка текста абзацев -->
+    <div class="task">
+        <h3>8.1 Установить текст 'text'</h3>
+        <p class="task8_1_p">Абзац 1</p>
+        <p class="task8_1_p">Абзац 2</p>
+        <p class="task8_1_p">Абзац 3</p>
+        <button id="task8_1_button">Установить 'text'</button>
+    </div>
+
+    <!-- Задача 8.2: Нумерация абзацев -->
+    <div class="task">
+        <h3>8.2 Нумерация абзацев</h3>
+        <p class="task8_2_p">Текст 1</p>
+        <p class="task8_2_p">Текст 2</p>
+        <p class="task8_2_p">Текст 3</p>
+        <button id="task8_2_button">Добавить номера</button>
+    </div>
+
+    <!-- Задача 8.3: Сумма чисел из инпутов -->
+    <div class="task">
+        <h3>8.3 Сумма чисел из инпутов</h3>
+        <input type="number" class="task8_3_input" value="5">
+        <input type="number" class="task8_3_input" value="10">
+        <input type="number" class="task8_3_input" value="15">
+        <button id="task8_3_button">Вычислить сумму</button>
+        <p id="task8_3_result"></p>
+    </div>
+
+    <!-- Задача 9.1: Увеличение значения инпутов -->
+    <div class="task">
+        <h3>9.1 Увеличение значения инпутов</h3>
+        <input type="number" class="task9_1_input" value="1">
+        <input type="number" class="task9_1_input" value="2">
+        <input type="number" class="task9_1_input" value="3">
+    </div>
+
+    <!-- Задача 9.2: Квадрат чисел в абзацах -->
+    <div class="task">
+        <h3>9.2 Квадрат чисел в абзацах</h3>
+        <p class="task9_2_p">2</p>
+        <p class="task9_2_p">3</p>
+        <p class="task9_2_p">4</p>
+    </div>
+
+    <!-- Задача 10.1: Анонимная функция -->
+    <div class="task">
+        <h3>10.1 Увеличение чисел</h3>
+        <div class="task10_1_div">1</div>
+        <div class="task10_1_div">2</div>
+        <div class="task10_1_div">3</div>
+        <div class="task10_1_div">4</div>
+        <div class="task10_1_div">5</div>
+    </div>
+
+    <!-- Задача 11.1: Добавление href в ссылку -->
+    <div class="task">
+        <h3>11.1 Добавить адрес ссылки (однократно)</h3>
+        <a href="https://example.com" id="task11_1_link">Example</a>
+        <button id="task11_1_button">Добавить адрес</button>
+    </div>
+
+    <!-- Задача 11.2: Увеличение до 10 -->
+    <div class="task">
+        <h3>11.2 Увеличение до 10</h3>
+        <button id="task11_2_button">1</button>
+    </div>
+
+    <!-- Задача 12.1: Восклицательный знак (однократно) -->
+    <div class="task">
+        <h3>12.1 Восклицательный знак (однократно)</h3>
+        <p class="task12_1_p">Абзац 1</p>
+        <p class="task12_1_p">Абзац 2</p>
+        <p class="task12_1_p">Абзац 3</p>
+    </div>
+
+    <!-- Задача 13.1: Увеличение чисел в списке -->
+    <div class="task">
+        <h3>13.1 Увеличение чисел в списке</h3>
+        <ul id="task13_1_list">
+            <li>1</li>
+            <li>2</li>
+            <li>3</li>
+        </ul>
+    </div>
+
+    <!-- Задача 13.2: Увеличение (однократно) -->
+    <div class="task">
+        <h3>13.2 Увеличение (однократно)</h3>
+        <ul id="task13_2_list">
+            <li>1</li>
+            <li>2</li>
+            <li>3</li>
+        </ul>
+    </div>
+
+    <!-- Задача 13.3: Увеличение до 10 -->
+    <div class="task">
+        <h3>13.3 Увеличение до 10</h3>
+        <ul id="task13_3_list">
+            <li>5</li>
+            <li>8</li>
+            <li>12</li>
+        </ul>
+    </div>
+
+    <!-- Задача 14.1: Значение инпута в абзац -->
+    <div class="task">
+        <h3>14.1 Значение инпута в абзац</h3>
+        <input type="text" id="task14_1_input" placeholder="Введите текст">
+        <p id="task14_1_result"></p>
+    </div>
+
+    <!-- Задача 14.2: Сумма чисел из инпутов -->
+    <div class="task">
+        <h3>14.2 Сумма чисел из инпутов</h3>
+        <input type="number" class="task14_2_input" value="10">
+        <input type="number" class="task14_2_input" value="20">
+        <input type="number" class="task14_2_input" value="30">
+        <button id="task14_2_button">Вычислить сумму</button>
+        <p id="task14_2_result"></p>
+    </div>
+
+    <!-- Задача 14.3: Сумма цифр числа -->
+    <div class="task">
+        <h3>14.3 Сумма цифр числа</h3>
+        <input type="number" id="task14_3_input" placeholder="Введите число">
+        <p id="task14_3_result"></p>
+    </div>
+
+    <!-- Задача 14.4: Среднее арифметическое -->
+    <div class="task">
+        <h3>14.4 Среднее арифметическое</h3>
+        <input type="text" id="task14_4_input" placeholder="Числа через запятую (10,20,30)">
+        <p id="task14_4_result"></p>
+    </div>
+
+    <!-- Задача 15.5: Разделение ФИО -->
+    <div class="task">
+        <h3>15.5 Разделение ФИО</h3>
+        <input type="text" id="task15_5_input" placeholder="ФИО через пробел (Иванов Иван Иванович)">
+        <input type="text" id="task15_5_lastname" placeholder="Фамилия" readonly>
+        <input type="text" id="task15_5_firstname" placeholder="Имя" readonly>
+        <input type="text" id="task15_5_middlename" placeholder="Отчество" readonly>
+    </div>
+
+    <!-- Задача 15.6: ФИО с заглавных букв -->
+    <div class="task">
+        <h3>15.6 ФИО с заглавных букв</h3>
+        <input type="text" id="task15_6_input" placeholder="фио через пробел">
+    </div>
+
+    <!-- Задача 15.7: Количество слов -->
+    <div class="task">
+        <h3>15.7 Количество слов</h3>
+        <input type="text" id="task15_7_input" placeholder="Введите текст">
+        <p id="task15_7_result"></p>
+    </div>
+
+    <!-- Задача 15.8: Формат даты -->
+    <div class="task">
+        <h3>15.8 Формат даты</h3>
+        <input type="text" id="task15_8_input" placeholder="дд.мм.гггг (01.01.2023)">
+    </div>
+
+    <!-- Задача 16.9: Палиндром -->
+    <div class="task">
+        <h3>16.9 Проверка палиндрома</h3>
+        <input type="text" id="task16_9_input" placeholder="Введите слово">
+        <button id="task16_9_button">Проверить</button>
+        <p id="task16_9_result"></p>
+    </div>
+
+    <!-- Задача 16.10: Проверка на цифру 3 -->
+    <div class="task">
+        <h3>16.10 Проверка на цифру 3</h3>
+        <input type="number" id="task16_10_input" placeholder="Введите число">
+        <p id="task16_10_result"></p>
+    </div>
+
+    <!-- Задача 16.11: Нумерация абзацев -->
+    <div class="task">
+        <h3>16.11 Нумерация абзацев</h3>
+        <p class="task16_11_p">Абзац 1</p>
+        <p class="task16_11_p">Абзац 2</p>
+        <p class="task16_11_p">Абзац 3</p>
+        <button id="task16_11_button">Пронумеровать</button>
+    </div>
+
+    <!-- Задача 16.12: Href в ссылках -->
+    <div class="task">
+        <h3>16.12 Href в ссылках</h3>
+        <a href="https://site1.com" class="task16_12_link">Сайт 1</a>
+        <a href="https://site2.com" class="task16_12_link">Сайт 2</a>
+    </div>
+
+    <!-- Задача 16.13: Стрелка для http ссылок -->
+    <div class="task">
+        <h3>16.13 Стрелка для http ссылок</h3>
+        <a href="http://example.com" class="task16_13_link">Example HTTP</a>
+        <a href="https://example.com" class="task16_13_link">Example HTTPS</a>
+    </div>
+
+    <!-- Задача 16.14: Квадрат числа в абзацах -->
+    <div class="task">
+        <h3>16.14 Квадрат числа в абзацах</h3>
+        <p class="task16_14_p">3</p>
+        <p class="task16_14_p">4</p>
+        <p class="task16_14_p">5</p>
+    </div>
+
+    <!-- Задача 16.15: День недели -->
+    <div class="task">
+        <h3>16.15 День недели</h3>
+        <input type="text" id="task16_15_input" placeholder="дд.мм.гггг (01.01.2023)">
+        <p id="task16_15_result"></p>
+    </div>
+
+    <!-- Задача 16.16: Кнопки +1/-1 -->
+    <div class="task">
+        <h3>16.16 Кнопки +1/-1</h3>
+        <input type="number" id="task16_16_input" value="5">
+        <button id="task16_16_plus">+1</button>
+        <button id="task16_16_minus">-1</button>
+    </div>
+
+    <!-- Задача 17.17: Счетчик кликов -->
+    <div class="task">
+        <h3>17.17 Счетчик кликов</h3>
+        <p class="task17_17_p">Абзац 1 (кликните)</p>
+        <p class="task17_17_p">Абзац 2 (кликните)</p>
+        <p class="task17_17_p">Абзац 3 (кликните)</p>
+        <input type="number" id="task17_17_counter" value="0" readonly>
+    </div>
+
+    <!-- Задача 17.18: Обрезка текста -->
+    <div class="task">
+        <h3>17.18 Обрезка текста</h3>
+        <div class="task17_18_div">Очень длинный текст который нужно обрезать</div>
+        <div class="task17_18_div">Еще один длинный текст для обрезки</div>
+        <button id="task17_18_button">Обрезать текст</button>
+    </div>
+
+    <!-- Задача 17.19: Случайная строка -->
+    <div class="task">
+        <h3>17.19 Случайная строка</h3>
+        <input type="text" id="task17_19_input" readonly>
+        <button id="task17_19_button">Сгенерировать</button>
+    </div>
+
+    <!-- Задача 17.20: Перемешивание строки -->
+    <div class="task">
+        <h3>17.20 Перемешивание строки</h3>
+        <input type="text" id="task17_20_input" placeholder="Введите текст">
+        <button id="task17_20_button">Перемешать</button>
+    </div>
+
+    <!-- Задача 18.21: Фаренгейт в Цельсий -->
+    <div class="task">
+        <h3>18.21 Конвертация Фаренгейт → Цельсий</h3>
+        <input type="number" id="task18_21_input" placeholder="Градусы Фаренгейта" value="100">
+        <button id="task18_21_button">Конвертировать</button>
+        <p id="task18_21_result"></p>
+    </div>
+
+    <!-- Задача 18.22: Факториал -->
+    <div class="task">
+        <h3>18.22 Вычисление факториала</h3>
+        <input type="number" id="task18_22_input" placeholder="Введите число" value="5">
+        <button id="task18_22_button">Вычислить</button>
+        <p id="task18_22_result"></p>
+    </div>
+
+    <!-- Задача 18.23: Квадратное уравнение -->
+    <div class="task">
+        <h3>18.23 Решение квадратного уравнения</h3>
+        <input type="number" id="task18_23_a" placeholder="a" value="1">
+        <input type="number" id="task18_23_b" placeholder="b" value="-3">
+        <input type="number" id="task18_23_c" placeholder="c" value="2">
+        <button id="task18_23_button">Решить</button>
+        <p id="task18_23_result"></p>
+    </div>
+
+</body>
+</html>

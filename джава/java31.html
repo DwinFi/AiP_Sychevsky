@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>JavaScript — Блок 31 (466–480)</title>
+  <style>
+    body { font-family: Arial, sans-serif; padding: 20px; }
+    section { border: 1px solid #ddd; padding: 12px; margin: 14px 0; }
+    h3 { margin: 0 0 8px; }
+    button { margin: 6px 0; }
+    table { border-collapse: collapse; margin-top: 10px; }
+    td, th { border: 1px solid #aaa; padding: 6px; }
+  </style>
+</head>
+<body>
+
+<h1>Блок 31 — Задачи 466–480</h1>
+
+<!-- 466 -->
+<section>
+  <h3>466 — показать содержимое ячеек таблицы в console.log</h3>
+  <table id="table466">
+    <tr><th>A</th><th>B</th><th>C</th></tr>
+    <tr><td>1</td><td>2</td><td>3</td></tr>
+    <tr><td>4</td><td>5</td><td>6</td></tr>
+  </table>
+  <button id="btn466">Показать значения</button>
+</section>
+
+<!-- 467 -->
+<section>
+  <h3>467 — вывести сумму чисел в таблице</h3>
+  <table id="table467">
+    <tr><th>1</th><th>2</th></tr>
+    <tr><td>3</td><td>4</td></tr>
+  </table>
+  <button id="btn467">Посчитать сумму</button>
+  <p>Сумма: <span id="sum467">—</span></p>
+</section>
+
+<!-- 468 -->
+<section>
+  <h3>468 — умножить все td на 2</h3>
+  <table id="table468">
+    <tr><td>2</td><td>4</td></tr>
+    <tr><td>6</td><td>8</td></tr>
+  </table>
+  <button id="btn468">Умножить</button>
+</section>
+
+<!-- 469 -->
+<section>
+  <h3>469 — каждый td по клику увеличивается на 1</h3>
+  <table id="table469">
+    <tr><td>1</td><td>3</td></tr>
+    <tr><td>5</td><td>7</td></tr>
+  </table>
+</section>
+
+<!-- 470 -->
+<section>
+  <h3>470 — по клику менять цвет ячейки на красный</h3>
+  <table id="table470">
+    <tr><td>текст</td><td>текст</td></tr>
+    <tr><td>текст</td><td>текст</td></tr>
+  </table>
+</section>
+
+<!-- 471 -->
+<section>
+  <h3>471 — каждая строка выводит сумму своих td</h3>
+  <table id="table471">
+    <tr><td>1</td><td>2</td><td>3</td></tr>
+    <tr><td>4</td><td>5</td><td>6</td></tr>
+  </table>
+  <button id="btn471">Показать суммы строк</button>
+</section>
+
+<!-- 472 -->
+<section>
+  <h3>472 — добавить столбец с суммой строк</h3>
+  <table id="table472">
+    <tr><td>1</td><td>2</td><td>3</td></tr>
+    <tr><td>4</td><td>5</td><td>6</td></tr>
+  </table>
+  <button id="btn472">Добавить столбец</button>
+</section>
+
+<!-- 473 -->
+<section>
+  <h3>473 — по кнопке добавить новую строку в таблицу</h3>
+  <table id="table473">
+    <tr><td>1</td><td>2</td></tr>
+  </table>
+  <button id="btn473">Добавить строку</button>
+</section>
+
+<!-- 474 -->
+<section>
+  <h3>474 — по клику менять цвет строки</h3>
+  <table id="table474">
+    <tr><td>1</td><td>2</td></tr>
+    <tr><td>3</td><td>4</td></tr>
+  </table>
+</section>
+
+<!-- 475 -->
+<section>
+  <h3>475 — каждая строка выводит свою сумму</h3>
+  <table id="table475">
+    <tr><td>2</td><td>4</td></tr>
+    <tr><td>5</td><td>7</td></tr>
+  </table>
+  <button id="btn475">Показать суммы</button>
+</section>
+
+<!-- 476 -->
+<section>
+  <h3>476 — создать таблицу NxM по вводимым числам</h3>
+  <input id="n476" type="number" placeholder="строки N">
+  <input id="m476" type="number" placeholder="столбцы M">
+  <button id="btn476">Создать</button>
+  <table id="table476"></table>
+</section>
+
+<!-- 477 -->
+<section>
+  <h3>477 — по клику покрасить диагональ (NxN)</h3>
+  <input id="n477" type="number" placeholder="Размер N">
+  <button id="btn477">Создать квадрат</button>
+  <button id="btn477diag">Покрасить диагональ</button>
+  <table id="table477"></table>
+</section>
+
+<!-- 478 -->
+<section>
+  <h3>478 — сумма всех диагональных элементов</h3>
+  <button id="btn478sum">Посчитать сумму</button>
+  <p>Сумма диагонали: <span id="out478">—</span></p>
+</section>
+
+<!-- 479 -->
+<section>
+  <h3>479 — поменять местами первую и последнюю строку</h3>
+  <table id="table479">
+    <tr><td>1</td><td>2</td></tr>
+    <tr><td>3</td><td>4</td></tr>
+    <tr><td>5</td><td>6</td></tr>
+  </table>
+  <button id="btn479">Поменять строки</button>
+</section>
+
+<!-- 480 -->
+<section>
+  <h3>480 — поменять местами первый и последний столбец</h3>
+  <table id="table480">
+    <tr><td>1</td><td>2</td><td>3</td></tr>
+    <tr><td>4</td><td>5</td><td>6</td></tr>
+    <tr><td>7</td><td>8</td><td>9</td></tr>
+  </table>
+  <button id="btn480">Поменять столбцы</button>
+</section>
+
+<!-- подключаем скрипт ПОСЛЕ body -->
+<script src="java31.js"></script>
+</body>
+</html>

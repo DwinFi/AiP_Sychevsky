@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		
+	</head>
+	<body>
+        <input id="elem" value="text">
+        <input id="elem" class="www zzz">
+        <input id="elem">
+        <div class="task">
+        <h3>№1 Data-text атрибут</h3>
+        <div id="elem" data-text="str">text</div>
+    </div>
+
+    <!-- Задача №2 -->
+    <div class="task">
+        <h3>№2 Data-num атрибут</h3>
+        <div data-num="1">text</div>
+        <div data-num="2">text</div>
+        <div data-num="3">text</div>
+        <div data-num="4">text</div>
+        <div data-num="5">text</div>
+    </div>
+
+    <!-- Задача №3 -->
+    <div class="task">
+        <h3>№3 Счетчик кликов в data-атрибуте</h3>
+        <button id="clickCounter" data-count="0">Кликай меня</button>
+        <button id="showClicks">Показать количество кликов</button>
+        <p id="clickResult"></p>
+    </div>
+
+    <!-- Задача №4 -->
+    <div class="task">
+        <h3>№4 Проверка длины в data-length</h3>
+        <input id="elem4" data-length="5" placeholder="Введите 5 символов">
+        <p id="error4" class="error"></p>
+    </div>
+
+    <!-- Задача №5 -->
+    <div class="task">
+        <h3>№5 Проверка диапазона в data-min/max</h3>
+        <input id="elem5" data-min="5" data-max="10" placeholder="Введите 5-10 символов">
+        <p id="error5" class="error"></p>
+        <div id="elem" data-product-price="1000" data-product-amount="5">
+	товар яблоки
+</div>
+<div class="task">
+        <h3>Запись порядковых номеров в data-num</h3>
+        <p class="paragraph">Абзац 1</p>
+        <p class="paragraph">Абзац 2</p>
+        <p class="paragraph">Абзац 3</p>
+        <p class="paragraph">Абзац 4</p>
+        <button id="setDataNum">Установить data-num</button>
+    </div>
+
+   
+    <div class="task">
+        <h3>Работа с классами элемента</h3>
+        <p id="elem" class="www ggg zzz">Элемент с классами www, ggg, zzz</p>
+        
+        <button id="countClasses">Узнать количество классов</button>
+        <button id="iterateClasses">Перебрать классы в цикле</button>
+        <button id="addClass">Добавить класс xxx</button>
+        <button id="removeClasses">Удалить классы www и zzz</button>
+        <button id="checkClass">Проверить класс ggg</button>
+        <button id="toggleClass">Переключить класс www</button>
+        
+        <div id="result" class="result"></div>
+    </div>
+    </div>
+        	<script src="java21.js"></script>
+	</body>
+</html>
